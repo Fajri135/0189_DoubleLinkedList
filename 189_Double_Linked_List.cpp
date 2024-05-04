@@ -86,6 +86,12 @@ void deleteNode() {
 	current = START;	// Step 1: start from the firs node
 	previous = NULL;
 
+	// Locate the node to be deleted
+	while (current != NULL && current->noMhs != rollNo) {
+		previous = current;
+		current = current->next;
+	}
+
 	
 
 int main() {
