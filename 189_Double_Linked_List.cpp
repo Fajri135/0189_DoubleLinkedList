@@ -83,6 +83,9 @@ void deleteNode() {
 		return;
 	}
 
+	current = START;	// Step 1: start from the firs node
+	previous = NULL;
+
 	
 
 int main() {
